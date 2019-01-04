@@ -41,5 +41,6 @@ https://medium.com/@MarkPieszak/angular-universal-server-side-rendering-deep-div
 
 ## ✅ Contributing
 Part of this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
-This project was prepared by [Claudio Teixeira] (https://www.claudioteixeira.com) 
+
+This project was prepared by [Claudio Teixeira](https://www.claudioteixeira.com) 
 Please feel free to open issues on github
