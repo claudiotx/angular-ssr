@@ -1,27 +1,42 @@
-# AngularSsr
+# AngularSSR
+<div align="center">
+  <a href="https://www.coderecipes.org" title="CodeRecipes" target="_blank"><img src="https://pli.io/2wRo0q.png" align="center" width="100%"></a>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+## 📦 Installation & Usage
+Install dependencies
+`npm install`
 
-## Development server
+Production Build and Express Server Dynamic SSR
+`npm run start:ssr`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Local Development
+`npm run serve:client`
+`npm run serve:server`
 
-## Code scaffolding
+## 🚀 Extra Features
+Work in progress
+Script: "aio:pre-rendering-ssr": "npm run build:prerender && npm run serve:prerender"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📖 Documentation
+SSR main purpose is the SEO gain.
+It's possible to control which app components are rendered through Pre-rendering and Dynamic SSR.
 
-## Build
+a) Dynamic SSR: (slower) Node server dynamically generates and serializes the application on any route returning that String to the browser.
+UCs: Very dynamic and interactive pages 🃏, there is dynamic data to be loaded from a database, application structure is rendred from a JSON config file 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+b) Static Pre-rendering (faster): create static files, (ie: index.html, about-us.html and serve those
+UCs: Static pages with simple forms, only a portion of your site is dynamic (render with CSR), The (rather) static oages of the app application don’t update very often.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Official Docs
+https://github.com/angular/angular-cli/wiki/stories-universal-rendering
+https://github.com/angular/universal-starter/blob/master/package.json
 
-## Running end-to-end tests
+### Social
+https://medium.com/@MarkPieszak/angular-universal-server-side-rendering-deep-dive-dc442a6be7b7
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## ✅ Contributing
+Part of this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+This project was prepared by [Claudio Teixeira] (https://www.claudioteixeira.com) 
+Please feel free to open issues on github
