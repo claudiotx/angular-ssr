@@ -4,18 +4,21 @@
 </div>
 
 ## 📦 Installation & Usage
-Install dependencies
+* Clone this repo:
+`git clone https://github.com/claudiotx/angular-ssr.git`
+
+* Install dependencies
 `npm install`
 
-Production Build and Express Server Dynamic SSR
+* Production Build and Express Server Dynamic SSR
 `npm run start:ssr`
 
-Local Development
+* Local Development
 `npm run serve:client`
 `npm run serve:server`
 
 ## 🚀 Extra Features
-Work in progress
+* Work in progress
 Script: "aio:pre-rendering-ssr": "npm run build:prerender && npm run serve:prerender"
 
 ## 📖 Documentation
